@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Copy of Emotional Intelligence 😁",
+  "description": "A futuristic AI ecosystem where emoji agents evolve, merge, and utilize sensory data and Google Search to assist users in a growing digital landscape.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

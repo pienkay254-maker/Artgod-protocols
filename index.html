@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Intelligence 😁</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: #050505;
+            color: #e2e8f0;
+            overflow: hidden;
+        }
+        .font-mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .neon-text {
+            text-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+        }
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 0.6; transform: scale(1.1); }
+        }
+        .animate-pulse-slow {
+            animation: pulse-slow 8s infinite ease-in-out;
+        }
+        @keyframes evolve-vortex {
+            0% { transform: scale(1) rotate(0deg); box-shadow: 0 0 20px rgba(236, 72, 153, 0.4), inset 0 0 10px rgba(236, 72, 153, 0.2); }
+            50% { transform: scale(1.4) rotate(180deg); box-shadow: 0 0 60px rgba(139, 92, 246, 0.8), inset 0 0 30px rgba(139, 92, 246, 0.4); filter: hue-rotate(90deg); }
+            100% { transform: scale(1) rotate(360deg); box-shadow: 0 0 20px rgba(236, 72, 153, 0.4), inset 0 0 10px rgba(236, 72, 153, 0.2); }
+        }
+        .animate-evolve {
+            animation: evolve-vortex 1s infinite cubic-bezier(0.45, 0, 0.55, 1);
+        }
+        @keyframes orbit {
+            from { transform: rotate(0deg) translateX(45px) rotate(0deg); }
+            to { transform: rotate(360deg) translateX(45px) rotate(-360deg); }
+        }
+        .animate-orbit {
+            animation: orbit 3s infinite linear;
+        }
+        @keyframes level-up-surge {
+            0% { transform: scale(1); box-shadow: 0 0 0px gold; }
+            30% { transform: scale(1.8); box-shadow: 0 0 100px gold; filter: brightness(1.5); }
+            100% { transform: scale(1); box-shadow: 0 0 20px gold; }
+        }
+        .animate-levelup {
+            animation: level-up-surge 2s ease-in-out forwards;
+        }
+        @keyframes wave {
+            0%, 100% { transform: scaleY(0.4); }
+            50% { transform: scaleY(1.5); }
+        }
+        .animate-wave {
+            animation: wave 1s infinite ease-in-out;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
